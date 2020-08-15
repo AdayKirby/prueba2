@@ -75,7 +75,7 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.enemigo_3, function (sprite,
 })
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.enemigo_4, function (sprite, otherSprite) {
     music.magicWand.play()
-    enemigo_42.destroy(effects.fountain, 100)
+    enemigo_42.destroy( effects.fountain, 100)
 })
 sprites.onOverlap(SpriteKind.enemigo_1, SpriteKind.Player, function (sprite, otherSprite) {
     music.pewPew.play()
